@@ -47,12 +47,15 @@ header img {
 }
 /* the styles for the main content */
 main {
-	padding: 0 30px;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 section {
 	width: 525px;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:  20px;
 }
 main h1 {
 	font-size: 150%;
@@ -113,6 +116,11 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
+}
+section h2, aside h2{
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
 }
 
 /* the styles for the footer */
